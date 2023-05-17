@@ -23,7 +23,7 @@ To use these models for stock price prediction, follow these steps:
 
 *Split the dataset into training and testing sets.
 
-*Run the appropriate model script (lstm_attention.py, bidirectional_lstm.py, or gru_model.py) and provide the necessary input arguments such as the path to the training and testing data.
+*Run the appropriate model script (lstm_attention.ipynb, bidirectional_lstm.ipynb, or gru_model.ipynb) and provide the necessary input arguments such as the path to the training and testing data.
 
 *The model will be trained on the training data and evaluate its performance on the testing data. The predicted stock prices will be generated as output.
 
