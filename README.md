@@ -8,7 +8,7 @@ ETF (VNM) Dataset recored from 31/12/2018 to 30/11/2022 of 988 observation.
 # MODELS
 Three different models have been implemented for stock price prediction:
 
-*LSTM with Attention: This model combines the long short-term memory (LSTM) architecture with an attention mechanism to capture important temporal dependencies and focus on relevant information while making predictions.
+"*"LSTM with Attention: This model combines the long short-term memory (LSTM) architecture with an attention mechanism to capture important temporal dependencies and focus on relevant information while making predictions.
 
 *Bidirectional LSTM: This model incorporates both forward and backward information by using two separate LSTM layers, allowing the model to capture dependencies from both past and future time steps.
 
