@@ -8,7 +8,7 @@ ETF (VNM) Dataset recored from 31/12/2018 to 30/11/2022 of 988 observation.
 # MODELS
 Three different models have been implemented for stock price prediction:
 
-"*"LSTM with Attention: This model combines the long short-term memory (LSTM) architecture with an attention mechanism to capture important temporal dependencies and focus on relevant information while making predictions.
+*LSTM with Attention: This model combines the long short-term memory (LSTM) architecture with an attention mechanism to capture important temporal dependencies and focus on relevant information while making predictions.
 
 *Bidirectional LSTM: This model incorporates both forward and backward information by using two separate LSTM layers, allowing the model to capture dependencies from both past and future time steps.
 
@@ -29,3 +29,10 @@ To use these models for stock price prediction, follow these steps:
 
 *Analyze the performance metrics and visualize the predicted stock prices using the provided plotting functions.
 
+# RESULT
+The performance of each model can be evaluated using various metrics such as mean absolute percentage error(MAPE), root mean squared error (RMSE), and mean absolute error (MAE). Additionally, visualizations can be generated to compare the predicted stock prices with the actual prices.
+
+# CONCLUSION
+By comparing the performance of LSTM with Attention, Bidirectional LSTM, and GRU models, we can gain insights into their effectiveness in predicting stock prices. This project serves as a starting point for further research and experimentation with deep learning architectures in the field of stock price forecasting.
+
+Please refer to the individual model scripts and documentation for more details on each model's implementation and usage.
